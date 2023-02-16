@@ -14,12 +14,12 @@ def contribuicoes():
 
 
 def artigos():
-    mensagem = ""
+    mensagem = "Time, Clocks, and the Ordering of Events in a Distributed System","\nDistributed snapshots: determining global states of distributed systems","\nThe Byzantine Generals Problem."
     return mensagem
 
 
 def citacoes():
-    mensagem = ""
+    mensagem = "'A distributed system is one in which the failure of a computer you didn't even know existed can render your own computer unusable.'", "\n'I think in other things that I've done, I can look back and see: This idea developed from something else.'" , "\n'Thinking doesn't guarantee that we won't make mistakes. But not thinking guarantees that we will.'"
     return mensagem
 
 
@@ -33,7 +33,7 @@ def erro():
     return mensagem
 
 
-print("\nBoa noite! Você está aprendendo sobre Allan Turing.\n")
+print("\nBoa noite! Você está aprendendo sobre Leslie Lamport.\n")
 
 continuar = True
 while continuar == True:
